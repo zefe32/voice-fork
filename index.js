@@ -40,7 +40,7 @@ async function joinVC(client, config) {
         channelId: voiceChannel.id,
         guildId: guild.id,
         adapterCreator: guild.voiceAdapterCreator,
-        selfDeaf: false,
+        selfDeaf: true,
         selfMute: true
     });
 }
